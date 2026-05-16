@@ -64,7 +64,7 @@ function Chatbot() {
     setLoading(true);
 
     try {
-      const res = await axios.post("http://localhost:3001/api/chat", {
+      const res = await axios.post("/api/chat", {
         messages: [
           { role: "system", content: SYSTEM_PROMPT },
           ...updatedChat,
