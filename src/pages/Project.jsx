@@ -1,4 +1,4 @@
-import { ExternalLink, GitBranchPlus, Github } from "lucide-react";
+import { ExternalLink} from "lucide-react";
 import adeva from '../assets/adeva.png'
 import orderBy from '../assets/dashboardorder.png'
 import hoventory from '../assets/hoventory.png'
